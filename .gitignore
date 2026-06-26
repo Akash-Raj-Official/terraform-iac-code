@@ -1,0 +1,29 @@
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Terraform override files (local overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# Terraform lock file (optional to commit — keeping it is recommended)
+# .terraform.lock.hcl
+
+# OS files
+.DS_Store
+Thumbs.db
