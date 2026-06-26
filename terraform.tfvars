@@ -1,3 +1,3 @@
 region = "us-east-1"
 instance_type = "t2.micro"
-key_name = "terraform-key"
+key_name = "Linux Key"
